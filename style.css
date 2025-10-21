@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+ul {
+  list-style: none;
+}
+
+/*header*/
+header {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+
+  transform: translateY(-50%);
+}
+h1 {
+  width: 80px;
+  margin-bottom: 40px;
+}
+h1 img {
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+nav li {
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #222;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
